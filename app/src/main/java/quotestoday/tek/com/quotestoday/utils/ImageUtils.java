@@ -19,7 +19,7 @@ import java.util.Random;
 import quotestoday.tek.com.quotestoday.R;
 
 /**
- * Created by bukia on 2/10/2016.
+ * Created by Tek on 2/10/2016.
  */
 public class ImageUtils {
     public static synchronized Bitmap decodeSampledBitmapFromResource(Resources res, int resId,

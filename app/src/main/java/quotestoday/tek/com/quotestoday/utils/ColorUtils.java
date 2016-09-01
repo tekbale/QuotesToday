@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * Created by bukia on 2/12/2016.
+ * Created by Tek on 2/12/2016.
  */
 public class ColorUtils {
     final static String[] colors=new String[]{

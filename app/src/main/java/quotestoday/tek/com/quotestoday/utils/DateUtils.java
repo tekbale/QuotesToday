@@ -8,7 +8,7 @@ import java.util.GregorianCalendar;
 import java.util.TimeZone;
 
 /**
- * Created by bukia on 2/9/2016.
+ * Created by Tek on 2/9/2016.
  */
 public class DateUtils {
     public static synchronized String getDateTime(String datetime) throws ParseException {

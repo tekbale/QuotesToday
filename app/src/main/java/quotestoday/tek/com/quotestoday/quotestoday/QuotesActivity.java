@@ -31,7 +31,7 @@ import quotestoday.tek.com.quotestoday.rssparser.RssParser;
 import quotestoday.tek.com.quotestoday.utils.ImageUtils;
 
 /**
- * Created by bukia on 2/11/2016.
+ * Created by Tek on 2/11/2016.
  */
 public class QuotesActivity extends AppCompatActivity {
 

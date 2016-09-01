@@ -12,7 +12,7 @@ import quotestoday.tek.com.quotestoday.R;
 import quotestoday.tek.com.quotestoday.utils.ImageUtils;
 
 /**
- * Created by bukia on 2/15/2016.
+ * Created by Tek on 2/15/2016.
  */
 public class AboutActivity extends AppCompatActivity {
 

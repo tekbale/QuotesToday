@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">QuotesToday</string>
-    <string name="inter_ad_widget_bottom">ca-app-pub-1839271229213232/3256232700</string>
-    <string name="facebook_app_id">454105688114531</string>
+    <string name="inter_ad_widget_bottom">{AD_ID}</string>
+    <string name="facebook_app_id">{SDK_ID}</string>
     <string name="title_activity_scrolling">Quotes Today</string>
     <string name="quote">Im going to stay in show business until Im the last one left.</string>
     <string name="author"> - George Burns</string>

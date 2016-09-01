@@ -80,7 +80,7 @@
         </receiver>
 
         <provider
-            android:authorities="com.facebook.app.FacebookContentProvider454105688114531"
+            android:authorities="com.facebook.app.FacebookContentProvider{SDK_ID}"
             android:name="com.facebook.FacebookContentProvider"
             android:exported="true" />
 

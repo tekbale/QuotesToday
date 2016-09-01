@@ -21,7 +21,7 @@ import quotestoday.tek.com.quotestoday.R;
 import quotestoday.tek.com.quotestoday.utils.ColorUtils;
 
 /**
- * Created by bukia on 2/11/2016.
+ * Created by Tek on 2/11/2016.
  */
 public class TestBitmap extends Activity {
     @Override

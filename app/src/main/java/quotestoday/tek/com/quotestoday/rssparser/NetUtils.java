@@ -5,7 +5,7 @@ import java.io.InputStream;
 import java.net.URL;
 
 /**
- * Created by bukia on 2/8/2016.
+ * Created by Tek on 2/8/2016.
  */
 public class NetUtils {
     public String getRssString(URL url) throws IOException {

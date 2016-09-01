@@ -29,7 +29,7 @@ import quotestoday.tek.com.quotestoday.utils.DateUtils;
 
 
 /**
- * Created by bukia on 2/8/2016.
+ * Created by Tek on 2/8/2016.
  */
 public class QuotesTodayWidgetProvider extends AppWidgetProvider {
     final String url = "http://feeds.feedburner.com/quotationspage/qotd";

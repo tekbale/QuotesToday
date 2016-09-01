@@ -25,7 +25,7 @@ import quotestoday.tek.com.quotestoday.rssparser.RssItem;
 import quotestoday.tek.com.quotestoday.utils.ColorUtils;
 
 /**
- * Created by bukia on 2/14/2016.
+ * Created by Tek on 2/14/2016.
  */
 public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.RssItemViewHolder> {
     List<RssItem> rssItems;
