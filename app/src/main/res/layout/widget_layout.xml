@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@drawable/background">
+
+    <!--<TextView android:id="@+id/txtvWidgetTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#1E6397"
+        android:text="Quotes Today"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"/>-->
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:autoStart="true"
+        android:inAnimation="@anim/news_in_anim"
+        android:outAnimation="@anim/news_out_anim"
+        android:flipInterval="6000"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+    </ViewFlipper>
+
+    <ImageButton
+        android:id="@+id/btnRefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refresh"
+        android:src="@drawable/ic_popup_sync_1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:alpha="0.5"/>
+
+    <!--<com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/inter_ad_widget_bottom"
+        android:layout_below="@id/viewFlipper"
+        android:layout_toLeftOf="@id/btnRefresh"
+        android:layout_alignParentLeft="true"
+        android:padding="2dp">
+    </com.google.android.gms.ads.AdView>-->
+
+</RelativeLayout>

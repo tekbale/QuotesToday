@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="4dp">
+    <android.support.v7.widget.CardView
+        android:id="@+id/cvSingleRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/relaycv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp">
+            <TextView
+                android:id="@+id/txtvCardQuote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/newsTitle"
+                android:gravity="center_horizontal"
+                android:text="The real hero is always a hero by mistake; he dreams of being an honest coward like everybody else."
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"/>
+            <TextView
+                android:id="@+id/txtvCardAuthor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" - Umberto Eco"
+                android:layout_below="@id/txtvCardQuote"
+                android:gravity="right"
+                style="@style/quoteStyle"
+                android:paddingRight="4dp"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
