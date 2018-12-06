@@ -1,6 +1,5 @@
 node {
     stage("test") {
-        sh "gradle --version"
         checkout scm
         echo "${BRANCH_NAME}"
         
