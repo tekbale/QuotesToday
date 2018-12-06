@@ -1,5 +1,6 @@
 node {
     stage("test") {
+        sh "gradle --version"
         sh "./gradle wrapper --gradle-version 2.4"
         checkout scm
         echo "${BRANCH_NAME}"
